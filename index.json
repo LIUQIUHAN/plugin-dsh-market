@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH plugin index",
+    "zh": "DSH 插件索引"
+  },
+  "description": {
+    "en": "Community plugins for DeepSeek Harness.",
+    "zh": "DeepSeek Harness 社区插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "sessions": {
+        "title": {
+          "en": "Sessions",
+          "zh": "会话"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@dsh2030/session-delete",
+      "title": {
+        "en": "Delete sessions",
+        "zh": "删除会话"
+      },
+      "description": {
+        "en": "Permanently delete any stored session and its log from the sidebar's session menu, including the session that is open or running.",
+        "zh": "在侧边栏的会话菜单中永久删除任意已保存的会话及其磁盘日志，包括正在打开或正在运行的会话。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0id2luQ2FuIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2RiZTZmMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNDIiIHN0b3AtY29sb3I9IiNmYmZkZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYzhkN2U4Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ3aW5SaW0iIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIwIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZTRlZGY3Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC40NSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNkMmRmZWYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9IndpbkluayIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM3Yzk3YmIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNWI3YmFkIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ3aW5Gb290IiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2M2ZDVlNyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNiNWM2ZGEiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8Y2xpcFBhdGggaWQ9IndpbkNhbkNsaXAiPgogICAgICA8cGF0aCBkPSJNMTEuMiAxMy42aDEzLjZsLTEuMDUgMTUuOWEzLjQgMy40IDAgMCAxLTMuNCAzLjE1aC00LjdhMy40IDMuNCAwIDAgMS0zLjQtMy4xNXoiLz4KICAgIDwvY2xpcFBhdGg+CiAgPC9kZWZzPgogIDxyZWN0IHg9IjE0LjkiIHk9IjUuOSIgd2lkdGg9IjYuMiIgaGVpZ2h0PSIyLjYiIHJ4PSIxLjMiIGZpbGw9IiNjOWQ4ZTkiLz4KICA8cmVjdCB4PSI5LjkiIHk9IjguNCIgd2lkdGg9IjE2LjIiIGhlaWdodD0iMi44IiByeD0iMS40IiBmaWxsPSJ1cmwoI3dpblJpbSkiLz4KICA8cGF0aCBkPSJNMTEuMiAxMy42aDEzLjZsLTEuMDUgMTUuOWEzLjQgMy40IDAgMCAxLTMuNCAzLjE1aC00LjdhMy40IDMuNCAwIDAgMS0zLjQtMy4xNXoiIGZpbGw9InVybCgjd2luQ2FuKSIvPgogIDxnIGNsaXAtcGF0aD0idXJsKCN3aW5DYW5DbGlwKSIgZmlsbD0idXJsKCN3aW5JbmspIj4KICAgIDxyZWN0IHg9IjE0LjU1IiB5PSIxNi42IiB3aWR0aD0iMi41IiBoZWlnaHQ9IjE1IiByeD0iMS4yNSIvPgogICAgPHJlY3QgeD0iMTguNzUiIHk9IjE2LjYiIHdpZHRoPSIyLjUiIGhlaWdodD0iMTUiIHJ4PSIxLjI1Ii8+CiAgPC9nPgogIDxyZWN0IHg9IjEwLjYiIHk9IjExLjciIHdpZHRoPSIxNC44IiBoZWlnaHQ9IjEuOSIgcng9IjAuOTUiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC45Ii8+CiAgPHJlY3QgeD0iMTIuMDUiIHk9IjEyLjUiIHdpZHRoPSIxMS45IiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSJ1cmwoI3dpbkZvb3QpIi8+Cjwvc3ZnPgo=",
+      "homepage": "https://www.npmjs.com/package/@dsh2030/session-delete",
+      "repository": {
+        "url": "https://github.com/LIUQIUHAN/session-delete"
+      },
+      "metadata": {
+        "category": "sessions",
+        "keywords": [
+          "delete",
+          "session",
+          "删除",
+          "会话",
+          "cleanup"
+        ],
+        "labels": []
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795198095,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
